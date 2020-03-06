@@ -7,3 +7,15 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = "2.33.0"
+strum = "0.17.1"
+strum_macros = "0.17.1"
+lazy_static = "1.4.0"
+
+[[bin]]
+name = "solver"
+path ="src/solver.rs"
+
+[[bin]]
+name = "generator"
+path ="src/generator.rs"
