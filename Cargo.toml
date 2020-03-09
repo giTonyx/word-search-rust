@@ -11,6 +11,7 @@ clap = "2.33.0"
 strum = "0.17.1"
 strum_macros = "0.17.1"
 lazy_static = "1.4.0"
+rand = "0.7.3"
 
 [[bin]]
 name = "solver"
